@@ -12,7 +12,6 @@ public class CommentDTO implements Serializable {
 
     private Date date;
 
-    @DBRef(lazy = true)
     private AuthorDTO author;
 
     public CommentDTO() {
